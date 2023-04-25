@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+.container{
+    
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color:rgb(255, 176, 145);
+}
+.card{
+    width: 300px;
+    margin: 20px;
+    border-radius: 5px;
+   
+    background-color:brown;
+}
+.card_img img{
+    width:40%;
+    height:40%;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
+
+.designation{
+  margin-left: 20px;
+  color: gainsboro;
+  
+}
+.designation p{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    
+    
+   }
+
+  button {
+    background-color:rgb(149, 105, 85);
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    color: #fff;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+  }
