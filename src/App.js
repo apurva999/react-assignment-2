@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import Productcard from './component/productcard';
 import './App.css';
+import './component/productcard.css'
+
 
 function App() {
+
+      const Pro={
+        productId : "1",
+        productPic : "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=300",
+        productName : "Nike",
+        productDescription : "gsjkd kjadnjsn",
+        Price : "7$",
+        Rating : "4"
+     
+      }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="allPro">
+      <div className="fRow">
+       <Productcard proOne={Pro}/>
+       <Productcard proOne={Pro}/>
+       <Productcard proOne={Pro}/>
+       </div>
+       <div className="sRow">
+       <Productcard proOne={Pro}/>
+       <Productcard proOne={Pro}/>
+       </div>
+       </div>
+       
   );
 }
 

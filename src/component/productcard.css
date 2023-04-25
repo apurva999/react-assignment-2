@@ -1,0 +1,43 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(242, 230, 230) ;
+    height: 410px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 18px 20px;
+    margin-top: 50px;
+
+}
+.item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+.item button{
+    background-color:brown;
+    width: 440px;
+    border: none;
+    padding: 20px;
+}
+
+.item h1{
+    letter-spacing: 2px;
+
+    
+}
+.item p{
+    margin-top: 2px;
+}
+
+.item h2{
+    color: indianred;
+}
+.item h4{
+    margin-top: 2px;
+}
