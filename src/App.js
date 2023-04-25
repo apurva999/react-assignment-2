@@ -1,23 +1,46 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { List } from './component/listandkeys';
 
 function App() {
+
+  const array = [
+    {
+      productId : "1",
+      productPic : "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=300",
+      productName : "Campus",
+      productDescription : "hsdfhjfsn fhjfhjsfhj fhjefhjsfhbsf efbhjefbhjsfbhjsdf",
+      Price : "$400",
+      Rating : "Rating: 4/5"
+      
+   },
+   {
+    productId : "2",
+    productPic : "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=300",
+    productName : "Rebook",
+    productDescription : "hsdfhjfsn fhjfhjsfhj fhjefhjsfhbsf efbhjefbhjsfbhjsdf",
+    Price : "$450",
+    Rating : "Rating: 4.5/5"
+    
+ }, {
+  productId : "3",
+  productPic : "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=300",
+  productName : "Bata",
+  productDescription :"hsdfhjfsn fhjfhjsfhj fhjefhjsfhbsf efbhjefbhjsfbhjsdf",
+  Price : "$300 ",
+  Rating : "Rating: 3/5"
+  
+}
+]
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   {array.map((Element , ind) =>
+   <List 
+   obj = {Element}
+   />
+   )}
     </div>
   );
 }
