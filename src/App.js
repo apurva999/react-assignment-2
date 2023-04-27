@@ -24,9 +24,10 @@ function App() {
         <button type="submit">Submit</button>
         </div>
       </form>
-      <h1>Welcome, {name !== '' ? name : '**'}!</h1>
+      <h1>Hi my name is:, {name !== '' ? name : '**'}!</h1>
     </div>
   );
 }
+
 
 export default App;
