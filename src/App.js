@@ -1,24 +1,31 @@
 
+
 import './App.css';
-import {useState} from 'react'
+import React, { useState } from 'react';
 
 function App() {
-  const [name,setName]=useState(" ")
-  const[dummyName,setDummyname]=useState("")
-  function displayName(){
-   setName(dummyName)
-  }
- 
-  return (
-    <div className="main">
-    <div className="changeN">
-      <input onChange={(e)=>
-      setDummyname(e.target.value)}></input>
-      <button onClick={displayName}>Submit</button>
-      <h2>Hi my name is: {name}</h2>
-    </div>
-    </div>
+  const [name, setName] = useState('');
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const inputName = event.target.name.value;
+    if (inputName !== '') {
+      setName(inputName);
+      event.target.name.value = '';
+    }
+  };
+
+  return (
+    <div className='handleAll'>
+      <form onSubmit={handleSubmit}>
+        
+        <input type="text" id="name-input" name="name" />
+        <div>
+        <button type="submit">Submit</button>
+        </div>
+      </form>
+      <h1>Welcome, {name !== '' ? name : '**'}!</h1>
+    </div>
   );
 }
 
