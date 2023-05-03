@@ -1,0 +1,27 @@
+.CardPara{
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
+    height: 300px;
+   border-radius: 10px;
+   padding: 15px;
+   background-color:darkred;
+
+}
+
+img{
+   border-radius: 100%;
+}
+.para{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn{
+   margin-top: 15px;
+   padding: 10px;
+   border-radius: 15px;
+   background-color:darksalmon;
+   font-size:20px;
+   font-weight: bold;
+   cursor: pointer;
+}
