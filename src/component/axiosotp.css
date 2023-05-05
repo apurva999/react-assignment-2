@@ -1,0 +1,27 @@
+
+.input{
+    border-radius: 20px;
+    height: 25px;
+    margin-top: 40%;
+}
+
+.btn{
+    margin-top: 20px;
+    height: 30px;
+    font-size: large;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+
+}
+.div1
+{
+    background-color:white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.message
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
