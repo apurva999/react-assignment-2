@@ -7,6 +7,7 @@
     color: white;
     font-size: 20px;
     justify-content: space-between;
+    position:sticky
   }
   
   .logo {
@@ -41,7 +42,7 @@
         text-align: center;
         width: 100%;
         top: 80px;
-        left: -150%;
+        left: -120%;
         background-color: lightpink;
       }
       .nav_list{
@@ -49,6 +50,6 @@
         padding: 10px;
       }
       .nav_linksactive{
-        left: -6%;
+        left: -8%;
       }
   }
