@@ -1,0 +1,27 @@
+.Main{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+     
+    
+}
+
+.input{
+    margin-top: 20px;
+    height: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn{
+    padding:8px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 80px;
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
