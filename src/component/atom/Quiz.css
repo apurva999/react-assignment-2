@@ -1,0 +1,91 @@
+body{
+    background:linear-gradient(80.04deg, #800080 0.02%, #ff768d 99.96%);
+    color: #11052c;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0 30px;
+    align-items: center;
+}
+.heading{
+    color:black;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container{
+    width: 500px;
+    height:400px;
+    background:#ffffff;
+    border-radius: 5px;
+    padding: 30px 60px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.question{
+
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px 1px;
+    border-radius: 5px;
+    padding: 5px 10px 0px;
+    font-size: large;
+    font-weight: 600;
+    min-width: 100%;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.ques-num{
+    margin-right: 10px;
+    margin-bottom:20px;
+}
+.option-container{
+    display: flex;
+    flex-direction: column;
+    margin:6px 4px;    
+    width: 100%;
+    padding: 10px;
+    
+}
+.btnHover{
+    box-shadow: 0px 0px 4px 1px rgb(128,123,123);
+    padding: 11px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    min-height: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.btnHover:hover{
+    background:linear-gradient(80.04deg, #800080 0.02%, #ff768d 99.96%) ;
+}
+
+#next-btn{
+   background:linear-gradient(80.04deg, #800080 0.02%, #ff768d 99.96%) ;
+   border-radius: 9px;
+   font-size: 18px;
+   color:#ffffff;
+   padding: 10px;
+   outline: none;
+   border: none;
+   cursor: pointer;
+   width: 100px;
+   transition: 0.2s;
+   margin-left: 200px;
+   }
+.checked{
+    background:plum;
+    border: 1px solid #800080;
+}
