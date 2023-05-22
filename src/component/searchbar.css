@@ -1,0 +1,38 @@
+
+.main{
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width:200px;
+}
+
+.input-field{
+    background-color: rgb(195, 137, 249);
+    width: 60%;
+    border-radius: 10px;
+    height: 2.5rem;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+input{
+background-color:transparent;
+border: none;
+font-size: 1.50rem;
+width: 100%;
+margin-left: 5px;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.search-icon{
+    color: white;
+}
