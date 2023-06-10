@@ -1,6 +1,5 @@
 import MenuBar from '../../menubar/MenuBar'
 import Navbar from '../../NavbarComponents/navbar/Navbar'
-
 import { useRef } from "react";
 import style from "./Home.module.css";
 import { HiDownload } from "react-icons/hi";
@@ -24,7 +23,6 @@ function Home() {
       orientation: "portrait",
       unit: "mm",
       format: "a4",
-      compress: false,
     });
     const imgWidth = 210;
     const imgHeight = (height * imgWidth) / width;
